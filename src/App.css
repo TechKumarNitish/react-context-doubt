@@ -1,0 +1,42 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 30px;
+  height: 100vh;
+}
+
+.dark-container {
+  background-color: black;
+  color: white;
+}
+
+.light-container {
+  background-color: white;
+  color: black;
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+}
+
+.dark-btn {
+  background-color: black;
+  color: white;
+}
+
+.light-btn {
+  background-color: white;
+  color: black;
+}
